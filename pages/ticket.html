@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <title>Tickets</title>
+</head>
+<body>
+    <header>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+              <ul class="navbar-nav text-white d-flex flex-column align-items-end d-xs d-sm d-md d-lg-none">
+                <li class="nav-item active  col-sm-3 col-md-3 col-lg-6">
+                  <a class="nav-link" href="../index.html">La conferencia</span></a>
+                </li>
+                <li class="nav-item col-xs-3 col-sm-3 col-md-3 col-lg-6">
+                  <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item col-xs-4 col-sm-3 col-md-4 col-lg-4">
+                  <a class="nav-link" href="#">Conviértete en un orador</a>
+                </li>
+                <li class="nav-item col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <a class="nav-link" href="./pages/ticket.html">Comprar tickets</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark d-flex flex-row ps-5 menu sticky-sm-top sticky-md-top sticky-lg-top sticky-xl-top" style="width: 100%;">
+            <div class="d-flex flex-row justify-content-between me-5" style="width: 90%;" >
+              <a class="navbar-brand align-center pe-5" href="#">
+                <img src="../resources/img/codoacodo.png" width="80" height="50" class="d-inline-block align-center" alt="">
+                Conf Bs As
+              </a>
+              <ul class="navbar-nav text-white d-flex flex-row align-items-center d-none d-lg-flex font-size-1justify-content-end" style="width: 60%; margin-left: 20rem;">
+                  <li class="nav-item  d-none d-lg-block col-lg-2 ms-5">
+                    <a class="nav-link active" href="../index.html">La conferencia</a>
+                  </li>
+                  <li class="nav-item d-none d-lg-block col-lg-2">
+                    <a class="nav-link" href="#">Los oradores</a>
+                  </li>
+                  <li class="nav-item d-none d-lg-block col-lg-2 me-4" style="width: 8rem;">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item d-none d-lg-block col-lg-3 me-2" style="width: 12rem;">
+                    <a class="nav-link" href="#">Conviértete en un orador</a>
+                  </li>
+                  <li class="nav-item d-none d-lg-block col-lg-3">
+                    <a class="nav-link link-success" href="./pages/ticket.html">Comprar tickets</a>
+                  </li>
+                </ul>
+              <button class="navbar-toggler collapsed d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+          </header>
+<main class="tickets">
+    <section class="offers">
+        <div class="menu-promo">
+          <h5>Estudiante</h5>
+          <p>Tienen un descuento</p>
+          <p class="desc">80%</p>
+          <p class="documentacion">*presentar documentación</p>
+
+        </div>
+        <div class="menu-promo">
+          <h5>Trainee</h5>
+          <p>Tienen un descuento</p>
+          <p class="desc">50%</p>
+          <p class="documentacion">*presentar documentación</p>
+        </div>
+        <div class="menu-promo">
+          <h5>Junior</h5>
+          <p>Tienen un descuento</p>
+          <p class="desc">20%</p>
+          <p class="documentacion">*presentar documentación</p>
+        </div>
+    </section>
+    <section class="venta">
+      <div class="subtitle">
+      <p>venta</p>
+      <h1>Valor de ticket $ 200</h1>
+    </div>
+      <form action="" class="registro">
+        <label for=""><input type="text" placeholder="Nombre" required></label>
+        <label for=""><input type="text" placeholder="Apellido" required></label>
+        <label for=""><input type="email" placeholder="Correo" required></label>
+        <p class="cantidad">Cantidad</p>
+        <p class="categoria">Categoría</p>
+        <input type="text" placeholder="Cantidad" class="qty">
+        <select name="" id="">
+          <option value="estudiante">Estudiante</option>
+          <option value="trainee">Traineee</option>
+          <option value="junior">Junior</option>
+        </select>
+        <p class="total-promo">Total a Pagar: $</p>
+        <input type="button" value="Borrar">
+        <input type="submit" value="Resumen">
+
+      </form>
+    </section>
+
+</main>
+<footer class="footer">
+    <ul class="ul-footer">
+        <li class="li-footer">Preguntas frecuentes</li>
+        <li class="li-footer middle">Contáctanos</li>
+        <li class="li-footer middle">Prensa</li>
+        <li class="li-footer middle">Conferencias</li>
+        <li class="li-footer">Términos y condiciones</li>
+        <li class="li-footer middle">Privacidad</li>
+        <li class="li-footer middle">Estudiantes</li>
+    </ul>
+</footer>
+<script src="../resources/js/bootstrap.bundle.min.js"></script>  
+<script src="../resources/js/app.js"></script> 
+</body>
+</html>
